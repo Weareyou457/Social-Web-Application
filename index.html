@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Social Book Website</title>
+    <link rel="shortcut icon" href="images/friends.png" type="images">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- -----------------------------------------------HEADER------------------------------------------------------>
+
+    <nav>
+        <div class="left">
+            <img src="images/logo.png" alt="images is loaded" class="logo">
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="search">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="usericon online" onclick="onclickhandle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+        <!-- ------------------------------------------------------LEFT menu--------------------------------------------------->
+        <div class="settings-menu">
+
+            <div id="dar-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new desgin</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-link">
+                    <img class="settings-icon" src="images/setting.png" alt="">
+                    <a href="#">settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img class="settings-icon" src="images/help.png" alt="">
+                    <a href="#">help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img class="settings-icon" src="images/display.png" alt="">
+                    <a href="#">display & Accessibility <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img class="settings-icon" src="images/logout.png" alt="">
+                    <a href="#">Logout<img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    </nav>
+
+    <!-- ------------------------------------------------------LEFT SLIDBAR-------------------------------------------------------->
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="implinks">
+                <a href="#"><img src="images/news.png" alt="">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Groups</a>
+                <a href="#"><img src="images/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="">Watch</a>
+                <a href="#" class="seeemore">See More</a>
+            </div>
+
+            <hr id="firstblockline">
+
+            <h4 class="shortcut">
+                Your shortcuts
+            </h4>
+            <div class="impshortcut">
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Developement</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+
+        </div>
+
+
+        <!---------------------------------------------------MAIN CONTAIN---------------------------------->
+
+
+        <div class="main-contain">
+            <div class="status">
+                <div class="block1">
+                    <img src="images/upload.png" alt="loaded">
+                    <a href="#">Post Story</a>
+
+                </div>
+                <div class="block2">
+                    <a href="#" class="statusicon"><img src="images/member-1.png" alt=""> </a>
+                    <p class="usericonheading">Alison</p>
+                </div>
+                <div class="block3">
+                    <a href="#" class="statusicon"><img src="images/member-2.png" alt=""> </a>
+                    <p class="usericonheading">Jackson</p>
+                </div>
+                <div class="block4">
+                    <a href="#" class="statusicon"><img src="images/member-3.png" alt=""> </a>
+                    <p class="usericonheading">Samona</p>
+                </div>
+                <div class="block5">
+                    <a href="#" class="statusicon"><img src="images/member-4.png" alt=""> </a>
+                    <p class="usericonheading">John Doe</p>
+                </div>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------- -->
+
+            <div class="container1">
+                <div class="lefticon1312">
+                    <img src="images/profile-pic.png" alt="">
+                </div>
+                <div class="righticon1312">
+                    <h4>John Nicholson</h4>
+                    <p> Public <img src="images/arrow.png" alt=""></p>
+                    <p class="hh">what's own your mind, Jack?</p>
+                    <hr>
+                    <div class="rightandricon1312" style="display: flex;">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ----------------------------------------------------------------------------------------------------- -->
+            <div class="container2">
+                <div class="lefticon1312">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <div class="righticon1312">
+                    <h4>Alison Mina</h4>
+                    <p> July 31 2023, 13:40pm</p>
+
+                    <p class="alfff">Doing my very best to be myself. Do you know why? Because everyone else is already taken, no one will ever be me.
+                        <a href="#" class="hastag">#model<a>
+                                <a href="#" class="hastag">#travel</a>
+                                <a href="#" class="hastag">#cute</a>
+                                <a href="#" class="hastag">#beauty</a>
+                    </p>
+
+                    <img class="post" src="images/feed-image-1.png" alt="">
+
+                    <a href="#" class="like"><img src="images/like.png" alt="">1.4k</a>
+                    <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                    <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                </div>
+                <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------- -->
+            <div class="container2">
+                <div class="lefticon1312">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <div class="righticon1312">
+                    <h4>Samona Rose</h4>
+                    <p> July 31 2023, 13:40pm</p>
+
+                    <p class="alfff">The best outfit a person can have is self-confidence. So rock it and own it because you are a nobody without it.
+                        <a href="#" class="hastag">#instadaily<a>
+                                <a href="#" class="hastag">#igaddict</a>
+                                <a href="#" class="hastag">#PleaseForgiveMe</a>
+                                <a href="#" class="hastag">#envywear</a>
+                    </p>
+
+                    <img class="post" src="images/feed-image-2.png" alt="">
+
+                    <a href="#" class="like"><img src="images/like-blue.png" alt="">1.4k</a>
+                    <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                    <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                </div>
+                <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------- -->
+            <div class="container2">
+                <div class="lefticon1312">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <div class="righticon1312">
+                    <h4>Wolyina Morne</h4>
+                    <p> July 31 2023, 13:40pm</p>
+
+                    <p class="alfff">Many people may have an image of me, but very few get the picture. That's why I don't allow people who do not know me to judge me.
+                        <a href="#" class="hastag">#quotes<a>
+                                <a href="#" class="hastag">#selfie</a>
+                                <a href="#" class="hastag">#naturephotography</a>
+                    </p>
+
+                    <img class="post" src="images/feed-image-3.png" alt="">
+
+                    <a href="#" class="like"><img src="images/like-blue.png" alt="">1.4k</a>
+                    <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                    <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                </div>
+                <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------- -->
+            <div class="container2">
+                <div class="lefticon1312">
+                    <img src="images/member-4.png" alt="">
+                </div>
+                <div class="righticon1312">
+                    <h4>Salminu Womas</h4>
+                    <p> July 31 2023, 13:40pm</p>
+
+                    <p class="alfff">I have never settled for good when it is not good enough because I know I deserve much more. I am destined for greatness and won't ever settle for less.
+                        <a href="#" class="hastag">#androidography <a>
+                                <a href="#" class="hastag">#filter</a>
+                                <a href="#" class="hastag">#hipster</a>
+                    </p>
+
+                    <img class="post" src="images/feed-image-4.png" alt="">
+
+                    <a href="#" class="like"><img src="images/like-blue.png" alt="">1.4k</a>
+                    <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                    <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                </div>
+                <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------- -->
+            <div class="container2">
+                <div class="lefticon1312">
+                    <img src="images/member-5.png" alt="">
+                </div>
+                <div class="righticon1312">
+                    <h4>John Nicholson</h4>
+                    <p> July 31 2023, 13:40pm</p>
+
+                    <p class="alfff">I have just blessed you with the most magical picture you will ever see in your life because that is just who I am.
+                        <a href="#" class="hastag">#smile<a>
+                                <a href="#" class="hastag">#happy</a>
+                                <a href="#" class="hastag">#style</a>
+                                <a href="#" class="hastag">#insta </a>
+                    </p>
+
+                    <img class="post" src="images/feed-image-5.png" alt="">
+
+                    <a href="#" class="like"><img src="images/like-blue.png" alt="">1.4k</a>
+                    <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                    <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                </div>
+                <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------- -->
+
+            <button type="button" class="loadmore">Load More</button>
+        </div>
+
+
+        <!-- ---------------------------------------------------RIGHT SLIDEBAR------------------------------------------>
+
+
+        <div class="right-sidebar">
+            <div class="top-event">
+                <h3 class="second11">
+                    Events
+                </h3>
+                <a href="#" class="see-all">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>Month</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><img src="images/location.png" alt=""> Willson Tech Park</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>23</h3>
+                    <span>Month</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><img src="images/location.png" alt=""> Willson Tech Park</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+
+            <div class="top-event">
+                <h3 class="second11">
+                    Advertisement
+                </h3>
+                <a href="#" class="see-all">close</a>
+            </div>
+            <div class="advertisment">
+                <img src="images/advertisement.png" alt="">
+            </div>
+
+            <div class="top-event">
+                <h3 class="second11">
+                    Conversationz
+                </h3>
+                <a href="#" class="see-all">Hide Chat</a>
+            </div>
+            <div class="Conversation" style="display: block;">
+                <div class="implinks1">
+                    <div class="usericon1 online1">
+                        <a href="#"><img src="images/member-1.png" alt="">Alison Mina</a>
+                    </div>
+                </div>
+                <div class="implinks1">
+                    <div class="usericon1 online1">
+                        <a href="#"><img src="images/member-2.png" alt="">Jackson Aston</a>
+                    </div>
+                </div>
+                <div class="implinks1">
+                    <div class="usericon1 online1">
+                        <a href="#"><img src="images/member-3.png" alt="">Samona Rose</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        
+var settingsmenu=document.querySelector(".settings-menu");
+var darkBtn=document.getElementById("dar-btn")
+function settingsMenuToggle() {
+    settingsmenu.classList.toggle("settings-menu-height");
+}
+
+darkBtn.onclick = function(){
+    darkBtn.classList.toggle("dark-btn-on");
+    document.body.classList.toggle("dark-theme");
+}
+
+    </script>
+</body>
+
+</html>

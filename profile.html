@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Social Book Website</title>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- -----------------------------------------------HEADER------------------------------------------------------>
+
+    <nav>
+        <div class="left">
+           <a href="index.html"> <img src="images/logo.png" alt="images is loaded" class="logo"></a>
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="search">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="usericon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+        <!-- ------------------------------------------------------LEFT menu--------------------------------------------------->
+        <div class="settings-menu">
+
+            <div id="dar-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new desgin</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-link">
+                    <img class="settings-icon" src="images/setting.png" alt="">
+                    <a href="#">settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img class="settings-icon" src="images/help.png" alt="">
+                    <a href="#">help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img class="settings-icon" src="images/display.png" alt="">
+                    <a href="#">display & Accessibility <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="settings-link">
+                    <img class="settings-icon" src="images/logout.png" alt="">
+                    <a href="#">Logout<img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- -------------------prfile page------------ -->
+
+    <div class="profile-container">
+        <img src="images/cover.png" alt="" class="cover-img">
+        <div class="profile-detail">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" alt="" class="pd-image">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt=""><img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png" alt=""> friends</button>
+                <button type="button"><img src="images/message.png" alt=""> message</button>
+            </div>
+        </div>
+        <!-- *************************************************************Left contain ************************************************** -->
+        <main class="pd-container">
+            <div class="left-pd-continan">
+                <div class="left-pd-contain1">
+
+                    <h3 class="profile-intro">
+                        INTRO
+                    </h3>
+                    <p class="profile-bio">Belive in your self and you can do </p>
+                    <p class="profile-bio-2"> unbelivable things. <img src="images/feeling.png" alt="" width="15px"></p>
+                    <hr>
+                    <div class="prfile-details">
+                        <div class="profile-link">
+                            <img class="settings-icon" src="images/profile-job.png" alt="">
+                            <p> Director at 99media LTD </p>
+                        </div>
+                        <div class="profile-link">
+                            <img class="settings-icon" src="images/profile-study.png" alt="">
+                            <p> Study BTECH at Indore Institute </p>
+                        </div>
+                        <div class="profile-link">
+                            <img class="settings-icon" src="images/profile-study.png" alt="">
+                            <p> want to DPS Delhi</p>
+                        </div>
+                        <div class="profile-link">
+                            <img class="settings-icon" src="images/profile-home.png" alt="">
+                            <p> Live in Banglore,India</p>
+                        </div>
+                        <div class="profile-link">
+                            <img class="settings-icon" src="images/profile-location.png" alt="">
+                            <p> from Indore,India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-pd-contain2">
+                    <div class="contain2">
+                        <h3 class="profile-intro">
+                            Photos
+                        </h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="contain2-1" style="margin-top:7px ;">
+                        <a href="#"><img src="images/photo1.png" alt=""></a>
+                        <a href="#"><img src="images/photo2.png" alt=""></a>
+                        <a href="#"><img src="images/photo3.png" alt=""></a>
+                        <a href="#"><img src="images/photo4.png" alt=""></a>
+                        <a href="#"><img src="images/photo5.png" alt=""></a>
+                        <a href="#"><img src="images/photo6.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="left-pd-contain3">
+                    <div class="contain2">
+                        <h3 class="profile-intro">
+                            Friends
+                        </h3>
+                        <a href="#">All friends</a>
+                    </div>
+                    <div class="contain2-1-2">
+                        <p>120 (10 mutual)</p>
+                    </div>
+                    <div class="contain2-1" style="margin-top:7px ;">
+                        <a href="#"><img class="medo" src="images/member-2.png" alt=""></a>
+                        <a href="#"><img class="medo" src="images/member-3.png" alt=""></a>
+                        <a href="#"><img class="medo" src="images/member-1.png" alt=""></a>
+                        <a href="#"><img class="medo" src="images/member-4.png" alt=""></a>
+                        <a href="#"><img class="medo" src="images/member-5.png" alt=""></a>
+                        <a href="#"><img class="medo" src="images/member-6.png" alt=""></a>
+                        <a href="#"><img class="medo" src="images/member-7.png" alt=""></a>
+                        <a href="#"><img class="medo" src="images/member-8.png" alt=""></a>
+                        <a href="#"><img class="medo" src="images/member-9.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- *************************************************************right contain ************************************************** -->
+            <div class="right-pd-continan">
+                <div class="container1" style="margin-top: 0px;">
+                    <div class="lefticon1312">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                    <div class="righticon1312">
+                        <h4>John Nicholson</h4>
+                        <p> Public <img src="images/arrow.png" alt=""></p>
+                        <p class="hh">what's own your mind, Jack?</p>
+                        <hr >
+                        <div class="rightandricon1312" style="display: flex;">
+                            <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="">Feeling</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ----------------------------------------------------------------------------------------------------- -->
+                <div class="container2">
+                    <div class="lefticon1312">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                    <div class="righticon1312">
+                        <h4>John Nicholson</h4>
+                        <p> July 31 2023, 13:40pm</p>
+
+                        <p style="font-size: 15px; padding-top: 15px;">Caption @John doe if you like project working and
+                            frontend work so connect with me on linkdin
+                            <a href="#" class="hastag">#Webdevlopment<a>
+                                    <a href="#" class="hastag">#Linkdinme</a>
+                                    <a href="#" class="hastag">#Project</a>
+                        </p>
+
+                        <img class="post" src="images/advertisement.png" alt="">
+                        <a href="#" class="like"><img src="images/like.png" alt="">1.4k</a>
+                        <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                        <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                    </div>
+                    <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------------- -->
+                <div class="container2">
+                    <div class="lefticon1312">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                    <div class="righticon1312">
+                        <h4>John Nicholson</h4>
+                        <p> July 31 2023, 13:40pm</p>
+
+                        <p style="font-size: 15px; padding-top: 15px;">Caption @John doe if you like project working and
+                            frontend work so connect with me on linkdin
+                            <a href="#" class="hastag">#Webdevlopment<a>
+                                    <a href="#" class="hastag">#Linkdinme</a>
+                                    <a href="#" class="hastag">#Project</a>
+                        </p>
+
+                        <img class="post" src="images/photo2.png" alt="">
+
+                        <a href="#" class="like"><img src="images/like-blue.png" alt="">1.4k</a>
+                        <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                        <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                    </div>
+                    <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------------- -->
+                <div class="container2">
+                    <div class="lefticon1312">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                    <div class="righticon1312">
+                        <h4>John Nicholson</h4>
+                        <p> July 31 2023, 13:40pm</p>
+
+                        <p style="font-size: 15px; padding-top: 15px;">Caption @John doe if you like project working and
+                            frontend work so connect with me on linkdin
+                            <a href="#" class="hastag">#Webdevlopment<a>
+                                    <a href="#" class="hastag">#Linkdinme</a>
+                                    <a href="#" class="hastag">#Project</a>
+                        </p>
+
+                        <img class="post" src="images/feed-image-3.png" alt="">
+
+                        <a href="#" class="like"><img src="images/like-blue.png" alt="">1.4k</a>
+                        <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                        <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                    </div>
+                    <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------------- -->
+                <div class="container2">
+                    <div class="lefticon1312">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                    <div class="righticon1312">
+                        <h4>John Nicholson</h4>
+                        <p> July 31 2023, 13:40pm</p>
+
+                        <p style="font-size: 15px; padding-top: 15px;">Caption @John doe if you like project working and
+                            frontend work so connect with me on linkdin
+                            <a href="#" class="hastag">#Webdevlopment<a>
+                                    <a href="#" class="hastag">#Linkdinme</a>
+                                    <a href="#" class="hastag">#Project</a>
+                        </p>
+
+                        <img class="post" src="images/feed-image-4.png" alt="">
+
+                        <a href="#" class="like"><img src="images/like-blue.png" alt="">1.4k</a>
+                        <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                        <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                    </div>
+                    <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------------- -->
+                <div class="container2">
+                    <div class="lefticon1312">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                    <div class="righticon1312">
+                        <h4>John Nicholson</h4>
+                        <p> July 31 2023, 13:40pm</p>
+
+                        <p style="font-size: 15px; padding-top: 15px;">Caption @John doe if you like project working and
+                            frontend work so connect with me on linkdin
+                            <a href="#" class="hastag">#Webdevlopment<a>
+                                    <a href="#" class="hastag">#Linkdinme</a>
+                                    <a href="#" class="hastag">#Project</a>
+                        </p>
+
+                        <img class="post" src="images/feed-image-5.png" alt="">
+
+                        <a href="#" class="like"><img src="images/like-blue.png" alt="">1.4k</a>
+                        <a href="#" class="like"><img src="images/comments.png" alt="">678</a>
+                        <a href="#" class="like"><img src="images/share.png" alt="">102</a>
+                    </div>
+                    <div class="threedot"><a href="#"><img src="images/more.png" alt=""></a></div>
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------------- -->
+
+                <button type="button" class="loadmore">Load More</button>
+            </div>
+    </div>
+    </main>
+    </div>
+
+
+
+
+    <script>
+
+        var settingsmenu = document.querySelector(".settings-menu");
+        var darkBtn = document.getElementById("dar-btn")
+        function settingsMenuToggle() {
+            settingsmenu.classList.toggle("settings-menu-height");
+        }
+
+        darkBtn.onclick = function () {
+            darkBtn.classList.toggle("dark-btn-on");
+            document.body.classList.toggle("dark-theme");
+        }
+
+    </script>
+</body>
+
+</html>
